@@ -1,5 +1,9 @@
 ~*
 *~
-.idea/
 *.swp
+*.do
+*.sublime-project
+*.sublime-workspace
+.idea/
+yarn.lock
 node_modules/
