@@ -38,7 +38,7 @@ After checking out/cloning this repository:
 
 `cd jaaga-alumni/site/ #following commands must be run from inside the 'site/ dir'`
 
-*Install dependencies* from the npm repository using either of the following:
+**Install dependencies** from the npm repository using either of the following:
 
 ```
 npm install
@@ -48,7 +48,7 @@ OR
 yarn install
 ```
 
-*Run* local development server with live-reload feature enabled:
+**Run local development server** with live-reload feature enabled:
 
 ```
 npm start
@@ -56,6 +56,15 @@ npm start
 OR
 
 yarn start
+```
+**Add a new dependency** by running
+
+```
+yarn add package_name
+
+OR 
+
+npm install package_name --save-dev
 ```
 
 ---
