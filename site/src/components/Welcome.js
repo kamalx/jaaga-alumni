@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 
-render() {
-  return (
-    <h1>Welcome to Jaaga Alumni</h1>
-  );
+class Welcome extends Component {
+  render() {
+    return (
+      <p>{ this.props.sitename }</p>
+    );
+  }
 }
 
 export default Welcome;
