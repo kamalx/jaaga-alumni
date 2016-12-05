@@ -1,15 +1,58 @@
 .App {
-  text-align: center;
+  // text-align: center;
 }
 
-.App-header {
+.app-logo {
+  height: 2rem;
+  margin:0.4rem;
+  float: left;
+}
+
+.app-header,
+.app-header-default {
   background-color: #eee;
-  height: 120px;
-  padding: 20px;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0.5rem;
   color: white;
+  border-bottom: 4px solid #124b92;
+  overflow: hidden;
 }
 
-.App-intro {
+.app-header-current {
+  border-color: #124b92;
+}
+
+.app-header-alumni {
+  border-color: #f60;
+}
+
+.app-header-applied {
+  border-color: #f55;
+}
+
+.app-header-advisor {
+  border-color: #fc0;
+}
+
+.app-intro {
   font-size: large;
 }
 
+.main-nav {
+  float: right;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  color: #124b92;
+  text-decoration: none;
+}
+
+.main-nav a:hover,
+.main-nav a:visited:hover {
+  color: #900;
+}
