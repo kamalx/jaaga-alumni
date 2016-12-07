@@ -8,10 +8,10 @@ class Header extends Component {
       firstname: "KoiTo",
       lastname: "Popat",
       avatar: "default_avatar.png",
-      links: [
-        "Jaaga Fellowship; http://jaaga.in/study",
-        "Jaaga Home; http://jaaga.in"
-      ]
+      links: {
+        "Jaaga Fellowship": "http://jaaga.in/study",
+        "Jaaga Home": "http://jaaga.in"
+      }
     }
 
     return  (

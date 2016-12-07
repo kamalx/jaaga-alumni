@@ -7,9 +7,9 @@ class MainNav extends Component {
     return (
       <section className="main-nav">
         {
-          links.map((linkItem) =>
-            <a href={linkItem.split(";")[1]}>
-                    {linkItem.split(";")[0]}</a>)
+          Object.keys(links).map((linkItem) =>
+            <a href={links[linkItem]}>
+                    {linkItem}</a>)
         }
       </section>
     )
