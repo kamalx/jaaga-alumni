@@ -8,7 +8,7 @@ class MainNav extends Component {
       <section className="main-nav">
         {
           Object.keys(links).map((linkItem) =>
-            <a href={links[linkItem]}>
+            <a key={linkItem} href={links[linkItem]}>
                     {linkItem}</a>)
         }
       </section>
