@@ -16,9 +16,12 @@ class Header extends Component {
 
     return  (
       <header className={"app-header app-header-" + this.props.status}>
-        <img src={logo} className="app-logo" alt="logo" />
-        {/*  <Welcome sitename="Jaaga Alumni" /> */}
-        <MainNav navItems={navItems} />
+        <div className="container-fluid">
+          <a href="#" title="Jaaga Alumni Home">
+            <img src={logo} className="app-logo" alt="logo" /></a>
+          {/*  <Welcome sitename="Jaaga Alumni" /> */}
+          <MainNav navItems={navItems} />
+        </div>
       </header>
     );
   }

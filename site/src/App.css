@@ -13,7 +13,6 @@
   background-color: #eee;
   height: 3rem;
   line-height: 3rem;
-  padding: 0.5rem;
   color: white;
   border-bottom: 4px solid #124b92;
   overflow: hidden;
@@ -46,7 +45,7 @@
 .main-nav a {
   display: inline-block;
   padding: 0 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 3rem;
   color: #124b92;
   text-decoration: none;
@@ -55,4 +54,12 @@
 .main-nav a:hover,
 .main-nav a:visited:hover {
   color: #900;
+}
+/*
+grid styles that you should remove if you include bootstrap
+in this project */
+.container-fluid {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
