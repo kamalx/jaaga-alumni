@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Skill from './Skill';
+import Skillset from './Skillset';
 import './Skills.css';
 
 class Skills extends Component {
@@ -13,8 +13,7 @@ class Skills extends Component {
       various fields</em></h4>
         {
           Object.keys(skills)
-                .map(key => skills[key]
-                              .map( s => <Skill skill={s} title={key} />))
+                .map(key => <Skillset key={key} skillset={skills[key]} title={key} />)
         }
       </div>
     );
