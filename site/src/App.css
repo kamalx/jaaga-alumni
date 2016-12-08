@@ -63,3 +63,11 @@ in this project */
   margin: auto;
   overflow: hidden;
 }
+
+/* my grid */
+.row {
+  display: flex;
+}
+.half {
+  width: 50%;
+}

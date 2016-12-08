@@ -4,9 +4,8 @@ import logo from '../images/logo.svg';
 
 class Header extends Component {
   render() {
+    const { status, firstname, lastname } = this.props.profile;
     const navItems = {
-      firstname: "KoiTo",
-      lastname: "Popat",
       avatar: "default_avatar.png",
       links: {
         "Jaaga Fellowship": "http://jaaga.in/study",
@@ -15,12 +14,12 @@ class Header extends Component {
     }
 
     return  (
-      <header className={"app-header app-header-" + this.props.status}>
+      <header className={"app-header app-header-" + status}>
         <div className="container-fluid">
           <a href="#" title="Jaaga Alumni Home">
             <img src={logo} className="app-logo" alt="logo" /></a>
           {/*  <Welcome sitename="Jaaga Alumni" /> */}
-          <MainNav navItems={navItems} />
+          <MainNav navItems={navItems} profile={this.props.profile} />
         </div>
       </header>
     );

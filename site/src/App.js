@@ -10,18 +10,28 @@ class App extends Component {
     // define initial state
     // status may be one of { 'current', 'alumni', 'applied', 'advisor' }
     this.state = {
-      status: 'current'
+      profile: {
+        status: 'current',
+        firstname: 'Kamal',
+        lastname: 'Morjal',
+        email: 'kamal@morjal.com',
+        twitter: 'kamalx',
+        facebook: 'kamalx',
+        github: 'kamalx',
+        address: 'Hamsah Organic Farm',
+        city: 'Bengaluru',
+        forHire: true
+      }
+
     }
   }
 
   render() {
     return (
       <section className="App">
-        <Header status={this.state.status} />
+        <Header profile={this.state.profile} />
         <div className="container-fluid">
-          <ProfileHeader status={this.state.status}
-                         address="Hamsah Organic Farm"
-                         forHire={true}
+          <ProfileHeader profile={this.state.profile}
                          className="profile-header" />
         </div>
       </section>

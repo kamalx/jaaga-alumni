@@ -1,3 +1,23 @@
 .profile-header {
   color: #999;
+  border-bottom: 1px solid #eee;
+}
+
+.title span:nth-child(1) {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.title span:nth-child(2) {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.title span:nth-child(2).details {
+  font-size: 0.7rem;
+  font-weight: normal;
+  text-transform: none;
 }
