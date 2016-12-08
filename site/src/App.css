@@ -55,6 +55,16 @@
 .main-nav a:visited:hover {
   color: #900;
 }
+
+/* utilities styles */
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 /*
 grid styles that you should remove if you include bootstrap
 in this project */
