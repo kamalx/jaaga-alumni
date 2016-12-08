@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import ProfileHeader from './components/ProfileHeader';
 import Skills from './components/Skills';
 import './App.css';
@@ -59,6 +60,7 @@ class App extends Component {
                          className="profile-header" />
           <Skills skills={this.state.profile.skills} />
         </div>
+        <Footer />
       </section>
     );
   }
