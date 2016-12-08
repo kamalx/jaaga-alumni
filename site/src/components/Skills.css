@@ -1,0 +1,29 @@
+.skill {
+  width: 100%;
+}
+
+.skillname {
+  width: 20%;
+  float: left;
+  clear: left;
+}
+
+.skillbar {
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+}
+
+.bar1, .bar2 {
+  height: 10px;
+  margin: 0.5rem 0;
+  float:left;
+}
+
+.bar1 {
+  background-color: #f60;
+}
+
+.bar2 {
+  background-color: #124b92;
+}
