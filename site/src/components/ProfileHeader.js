@@ -37,6 +37,8 @@ class ProfileHeader extends Component {
               electricity and internet, using machine tools to create
               tangible and useful objects and some more.
               </span>
+              <span className="details"> {firstname} currently lives
+              at {address}, {city}.</span>
             </p>
             {/*
             conditional expressions clubbed with logical &&
