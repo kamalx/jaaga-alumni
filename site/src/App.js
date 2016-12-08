@@ -14,6 +14,7 @@ class App extends Component {
         status: 'current',
         firstname: 'Kamal',
         lastname: 'Morjal',
+        dob: '1984-02-13',
         email: 'kamal@morjal.com',
         twitter: 'kamalx',
         facebook: 'kamalx',
