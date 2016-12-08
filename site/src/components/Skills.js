@@ -9,7 +9,7 @@ class Skills extends Component {
     return (
       <div>
       <h2>Skills</h2>
-      <h4>Skills – <em>self assessed based on frequency of work done in
+      <h4>Skills – <em className="dim">self assessed based on frequency of work done in
       various fields</em></h4>
         {
           Object.keys(skills)

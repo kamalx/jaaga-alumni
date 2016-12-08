@@ -65,6 +65,14 @@
   float: right;
 }
 
+.dim {
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+em {
+  font-family: serif;
+}
 /*
 grid styles that you should remove if you include bootstrap
 in this project */
