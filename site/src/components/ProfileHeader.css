@@ -1,6 +1,7 @@
 .profile-header {
   color: #999;
   border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
 }
 
 .title span:nth-child(1) {
@@ -17,7 +18,7 @@
 }
 
 .title span:nth-child(2).details {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: normal;
   text-transform: none;
 }
