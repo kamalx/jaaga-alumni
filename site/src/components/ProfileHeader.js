@@ -46,8 +46,9 @@ class ProfileHeader extends Component {
             parts of this JSX conditionally. */}
             {
               forHire &&
-                <button className="right">Hire {firstname} {lastname}</button>
+                <p>{firstname} is currently looking for work</p>
             }
+            {/* <button className="right">Hire {firstname} {lastname}</button> */}
           </div>
         </div>
       </div>
