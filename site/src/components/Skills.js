@@ -9,12 +9,10 @@ class Skills extends Component {
     return (
       <div>
       <h2>Skills</h2>
-      <h4>Skills – <em className="dim">self assessed based on frequency of work done in
-      various fields</em></h4>
-        {
-          Object.keys(skills)
-                .map(key => <Skillset key={key} skillset={skills[key]} title={key} />)
-        }
+      {
+        Object.keys(skills)
+              .map(key => <Skillset key={key} skillset={skills[key]} title={key} />)
+      }
       </div>
     );
   }
